@@ -21,7 +21,7 @@ body{
    height: 100%;
    object-fit: cover;
    border-radius: 5px;
-   filter: brightness(.7);
+   filter: brightness(.8);
 }
 /* FINE COMMON */
 
@@ -61,6 +61,7 @@ nav li a {
    border: 1px transparent solid;
    height: 350px;
    position: relative;
+   margin-bottom: 25px;
 }
 
 .overlayText {
@@ -81,6 +82,30 @@ nav li a {
    font-size: 10px;
 }
 
+.mainContentHeader {
+   margin: 20px 0 20px 0;
+}
+
+.sideArticle {
+   width: calc((100% / 5) - 20px);
+}
+
+.centerArticle {
+   width: calc((100% / 5 * 3));
+   margin: 0 20px 0 20px;
+}
+
+.sideArticle,
+.centerArticle {
+   background:#ABCFE7;
+   float: left;
+}
+
+.mainContent::after {
+content: ''; 
+display: table;
+clear: both;
+}
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
@@ -105,9 +130,9 @@ nav li a {
    background: orange;
 }
 
-/* .debug .container main {
-   background: lightpink;
-} */
+.debug .topBar {
+   background: blue;
+}
 
 
 /* FINE DEBUG */

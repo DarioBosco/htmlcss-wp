@@ -6,6 +6,10 @@ box-sizing: border-box;
 
 /* INIZIO COMMON */
 
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+
 .container {
    width: 60%;
    margin: 0 auto;
@@ -18,8 +22,21 @@ box-sizing: border-box;
 #logo {
    height: 50px;
    border-right: 1px solid lightgrey;
-   padding-right: 15px;
+   padding:0px 10px 0px 0px
 }
+/* INIZIO NAV */
+nav li {
+   display: inline;
+}
+
+nav li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 10px;
+   margin-right: 5px;
+   color: grey;
+}
+/* FINE NAV */
 
 /* FINE HEADER */
 
@@ -50,4 +67,5 @@ box-sizing: border-box;
 .debug .container {
    background: orange;
 }
+
 /* FINE DEBUG */

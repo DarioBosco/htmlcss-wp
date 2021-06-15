@@ -6,8 +6,19 @@ box-sizing: border-box;
 
 /* INIZIO COMMON */
 
+.container {
+   width: 60%;
+   margin: 0 auto;
+}
 /* FINE COMMON */
 
 /* INIZIO DEBUG */
 
+.debug {
+   background: grey;
+}
+
+.debug .container {
+   background: lightgrey;
+}
 /* FINE DEBUG */

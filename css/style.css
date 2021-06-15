@@ -97,7 +97,6 @@ nav li a {
 
 .sideArticle,
 .centerArticle {
-   background:#ABCFE7;
    float: left;
 }
 
@@ -105,6 +104,27 @@ nav li a {
 content: ''; 
 display: table;
 clear: both;
+}
+
+.mainContentHeader > h1 {
+   font-size: 1.5em
+}
+
+.mainContentHeader > p{
+   font-size: 10px;
+   color: grey
+}
+
+.sideArticle > p:first-child, 
+.centerArticle > p:first-child {
+   font-size: 10px;
+   margin-bottom: 5px;
+}
+
+.sideArticle > p:last-child, 
+.centerArticle > p:last-child {
+   font-size: 10px;
+   color: grey
 }
 /* FINE MAIN */
 
@@ -122,17 +142,17 @@ clear: both;
 
 /* INIZIO DEBUG */
 
-.debug {
+/* .debug {
    background: grey;
-}
+} */
 
-.debug .container header {
+/* .debug .container header {
    background: orange;
 }
 
 .debug .topBar {
    background: blue;
-}
+} */
 
 
 /* FINE DEBUG */

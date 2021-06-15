@@ -87,12 +87,12 @@ nav li a {
 }
 
 .sideArticle {
-   width: calc((100% / 5) - 20px);
+   width: calc((100% / 5) - 10px);
 }
 
 .centerArticle {
    width: calc((100% / 5 * 3));
-   margin: 0 20px 0 20px;
+   margin: 0 10px 0 10px;
 }
 
 .sideArticle,
@@ -104,6 +104,10 @@ nav li a {
 content: ''; 
 display: table;
 clear: both;
+}
+
+.mainContent .imageBox{
+   height: 140px
 }
 
 .mainContentHeader > h1 {
